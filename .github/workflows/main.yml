@@ -4,4 +4,4 @@ jobs:
   job1:
     runs-on: ubuntu-latest
     steps:
-    - run: echo hello
+    - run: docker pull nginx:latest
